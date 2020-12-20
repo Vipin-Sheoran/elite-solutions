@@ -1,0 +1,50 @@
+[debug] [2020-12-20T12:44:58.724Z] ----------------------------------------------------------------------
+[debug] [2020-12-20T12:44:58.727Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Praveen\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-12-20T12:44:58.728Z] CLI Version:   9.0.1
+[debug] [2020-12-20T12:44:58.728Z] Platform:      win32
+[debug] [2020-12-20T12:44:58.728Z] Node Version:  v14.8.0
+[debug] [2020-12-20T12:44:58.731Z] Time:          Sun Dec 20 2020 18:14:58 GMT+0530 (India Standard Time)
+[debug] [2020-12-20T12:44:58.731Z] ----------------------------------------------------------------------
+[debug] [2020-12-20T12:44:58.731Z] 
+[debug] [2020-12-20T12:44:58.740Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-12-20T12:44:58.741Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Praveen\Desktop\website
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-12-20T12:46:05.436Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2020-12-20T12:46:06.492Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 20 Dec 2020 12:46:06 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  Using project elite-homes-solution (elite-homes-solution) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] i  Skipping write of New folder (2)/404.html 
+[debug] [2020-12-20T12:47:04.704Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2020-12-20T12:47:05.261Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2020-12-20T12:47:05.261Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"8.2.1","browserURL":"https://www.gstatic.com/firebasejs/8.2.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/8.2.1/firebase.tgz"},"live":{"version":"8.2","browserURL":"https://www.gstatic.com/firebasejs/live/8.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/8.2/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js","auth":"https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js","database":"https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js","firestore":"https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js","functions":"https://www.gstatic.com/firebasejs/8.2.1/firebase-functions.js","installations":"https://www.gstatic.com/firebasejs/8.2.1/firebase-installations.js","messaging":"https://www.gstatic.com/firebasejs/8.2.1/firebase-messaging.js","storage":"https://www.gstatic.com/firebasejs/8.2.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/8.2.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/8.2.1/firebase-remote-config.js","firestore.memory":"https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.memory.js"}}
+[info] i  Skipping write of New folder (2)/index.html 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[info] i  Writing project information to .firebaserc... 
+[info] i  Writing gitignore file to .gitignore... 
+[info] 
+[info] +  Firebase initialization complete! 

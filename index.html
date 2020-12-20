@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elite Home's Solution</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="slider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="form.css" >
+    <script src="form.js"></script>
+</head>
+<body>
+    <nav class="navbar h-nav-resp">
+<ul class="nav-list v-class-resp">
+    <div class="logo"><img src="AC1.jpeg" alt="logo"></div>
+    <li><a href="#home" class="homes">Home</a></li>
+    <li><a href="#about" class="abouts">About us</a></li>
+    <li><a href="#services" class="servicess">Services</a></li>
+    <li><a href="#contact" class="contacts">Contact Us</a></li>
+</ul>
+<div class="burger">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+</div>
+    </nav>
+
+    <section class="background firstsection">
+        <div class="box-main"> 
+            <div class="firsthalf">
+                <p class="text-big">Elite Home's Solution</p>
+                <p class="text-small">Ask for a repair service for your electronics 
+                    devices such as TV,water purifier,geyser,AC. Both home repair and pick up services are available</p>
+            </div>
+            <div class="secondhalf">
+            <!-- <img src="AC2.jpeg" alt=""> -->
+            </div>
+</div>
+    </section>
+    <div class="ser">
+        <h2 id='services'>OUR SERVICE</h2>
+        <div class="line2"></div>
+    </div>
+    <section class="secright sliders">
+    
+    <div class="slideshow-container">
+
+        
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="AC4.jpeg" style="width:100%">
+          <!-- <div class="text2">Caption Text</div> -->
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="AC2.jpeg" style="width:100%">
+          <!-- <div class="text2">Caption Two</div> -->
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="AC3.jpeg" style="width:100%">
+          <!-- <div class="text2">Caption Three</div> -->
+        </div>
+      
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </section>
+  <p class="text-small">All type of split & Window ac installation, repairing and servicing.</p>
+
+  
+    <!-- <section class="secright" >
+        
+        <div class="paras">
+         <p class="sectiontag text-big">Repairing
+        </p> 
+        <p class="sectionsubtag text-small">All type of split & Window ac installation, repairing and servicing.</p>
+        </div>
+        <div class="thumbnail"><img src="AC1.jpeg" alt=""></div>
+        
+    </section>
+
+    <section class="secright secleft">
+        <div class="paras">
+        <p class="sectiontag text-big">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id ad consequ
+        </p>
+        <p class="sectionsubtag text-small">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+             Distinctio inventore dolor ex minima aliquam in excepturi suscipit magni, est officiis enim hic? Necessitatibus nisi itaque deserunt amet fugit unde laudantium!</p>
+        </div>
+        <div class="thumbnail"><img src="GEYSER.jpeg" alt=""></div>
+    </section>
+
+    <section class="secright">
+        <div class="paras">
+        <p class="sectiontag text-big">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id ad consequ
+        </p>
+        <p class="sectionsubtag text-small">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+             Distinctio inventore dolor ex minima aliquam in excepturi suscipit magni, est officiis enim hic? Necessitatibus nisi itaque deserunt amet fugit unde laudantium!</p>
+        </div>
+        <div class="thumbnail"><img src="TV1.jpeg" alt=""></div>
+    </section> -->
+    
+    <hr>
+    
+    <section class="aboutus">
+        <div class="ser">
+            <h2 id='about'>ABOUT US</h2>
+            <div class="line2"></div>
+        </div>
+        <br><br><br>
+        <div class="aboutflex">
+        <div class="heading">
+            <p class="text-small aboutp"> <p class="text-small">Here at Elite Home's Solution we <br> provide you with the most reliable <br>services to help you with the<br> installation and maintenance 
+                of all<br> major electric equipment at your<br> home like AC,TV,Geyser,etc. so that <br>you don't have to worry about your <br>home services with Elite Home's <br>Solution</p></p>
+        </div>
+        <div class="aboutimg"><img src="AC3.jpeg" alt=""></div>
+    </div>
+    </section>
+    <hr>
+    <section class="contact" id="contact">
+        <div class="ser">
+            <h2 id='contact'>CONTACT US</h2>
+            <div class="line2"></div>
+        </div>
+        <div class="container">
+            <div id="form-main">
+                <div id="form-div">
+                    <form class="montform" id="reused_form"  >
+                        <p class="name">
+                            <input name="name" type="text" class="feedback-input" required placeholder="Name" id="name" />
+                        </p>
+                        <p class="email">
+                            <input name="email" type="email" required class="feedback-input" id="email" placeholder="Email" />
+                        </p>
+                        <p class="text">
+                            <textarea name="message" class="feedback-input" id="comment" placeholder="Message"></textarea>
+                        </p>
+                        <div class="submit">
+                            <button type="submit" class="button-blue">SUBMIT</button>
+                            <div class="ease"></div>
+                        </div>
+                    </form>
+                    <div id="error_message" style="width:100%; height:100%; display:none; ">
+                        <h4>
+                            Error
+                        </h4>
+                        Sorry there was an error sending your form. 
+                    </div>
+                    <div id="success_message" style="width:100%; height:100%; display:none; "> <h2>Success! Your Message was Sent Successfully.</h2> </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/resp.js"></script>
+    <script type="text/javascript" src="engine1/wowslider.js"></script>
+        <script type="text/javascript" src="engine1/script.js"></script>
+</body>
+</html>
